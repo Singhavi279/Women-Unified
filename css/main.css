@@ -404,7 +404,7 @@ button:focus {
    3. Hero Area
    ========================================================================== */
 #hero-area {
-  background: url(../img/hero-area.jpg) fixed no-repeat;
+  background: url(../img/hero-area.webp) fixed no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
@@ -643,7 +643,7 @@ button:focus {
   6. Features Section Style
    ========================================================================== */
 #features {
-  background: url(../img/bg2.jpg) fixed no-repeat;
+  background: url(../img/bg2.webp) fixed no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
@@ -971,7 +971,7 @@ button:focus {
 11. Testimonial Section Style
  ========================================================================== */
 #testimonial {
-  background: url(../img/testimonial-bg.jpg) fixed no-repeat;
+  background: url(../img/testimonial-bg.webp) fixed no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
