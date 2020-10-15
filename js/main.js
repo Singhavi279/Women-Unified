@@ -166,3 +166,16 @@
 
 }(jQuery));
 
+<<<<<<< Updated upstream
+=======
+// pwa add
+async function registerSW() {
+  if ('serviceWorker' in navigator) {
+    try {
+      await navigator.serviceWorker.register('sw.js');
+    } catch (e) {
+      console.log('sw registration failed');
+    }
+  }
+}
+>>>>>>> Stashed changes
