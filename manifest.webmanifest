@@ -1,0 +1,19 @@
+{
+    "name" : "Women Unified",
+    "short_name" : "WUC",
+    "display" : "standalone",
+    "background_color" : "#fff",
+    "description" : "Creating a better world for women.",
+    "icons" : [
+        {
+            "src" : "img/ud1.png",
+            "sizes" : "512x512",
+            "type" : "images/png"
+        },
+        {
+            "src" : "img/ud1.png",
+            "sizes" : "192x192",
+            "type" : "images/png"
+        }
+    ]
+}
