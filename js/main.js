@@ -26,8 +26,7 @@
        
         $('body').scrollspy({
             target: '.navbar-collapse',
-            offset: 195,
-            registerSW();
+            offset: 195
         });
 
         $(window).on('scroll', function() {
@@ -167,13 +166,3 @@
 
 }(jQuery));
 
-// pwa add
-async function registerSW() {
-  if ('serviceWorker' in navigator) {
-    try {
-      await navigator.serviceWorker.register('/sw.js');
-    } catch (e) {
-      console.log('sw registration failed');
-    }
-  }
-}
