@@ -167,6 +167,7 @@
 }(jQuery));
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 // pwa add
 async function registerSW() {
@@ -178,4 +179,6 @@ async function registerSW() {
     }
   }
 }
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
