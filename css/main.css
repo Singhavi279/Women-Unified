@@ -1270,3 +1270,6 @@ footer {
 .copyright p a:hover {
   color: #61D2B4;
 }
+.teamimage img:hover{
+  transform: 0.5s ease;
+}
