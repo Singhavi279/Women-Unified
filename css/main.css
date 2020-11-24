@@ -1383,8 +1383,33 @@ footer {
 }
 
 .panel {
-  padding: 0 18px;
+  padding: 0 22px;
   background-color: white;
   display: none;
   overflow: hidden;
+  text-decoration: none;
+  color: black;
+  padding-bottom: 10px;
+  transition: transform width 2s, height 4s;;
+}
+.panel .a {
+  padding-bottom: 38px;
+}
+.panel:hover{
+  color: red;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }
