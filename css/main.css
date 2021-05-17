@@ -152,7 +152,8 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
-  display: inline-block;
+  display:inline-block;
+
 }
 
 .btn:focus,
@@ -215,6 +216,10 @@ button:focus {
 
 .clear {
   clear: both;
+}
+
+.accordion{
+  margin-top:1rem;
 }
 
 /* ==========================================================================
