@@ -101,7 +101,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
    2.1 Section Title
    ========================================================================== */
 .section {
-  padding: 80px 0;
+  padding: 50px 0;
 }
 
 .section-header {
@@ -1024,7 +1024,9 @@ button:focus {
 /* ==========================================================================
   12. Team Section
    ========================================================================== */
-.single-team:hover .team-details {
+
+  
+   .single-team:hover .team-details {
   opacity: 1;
 }
 
@@ -1036,9 +1038,16 @@ button:focus {
   border-radius: 0px;
   background: #ffffff;
   overflow: hidden;
-  width:283px;
-  height: 435px;
-  padding-bottom: 20px;
+  width:11.5rem;
+  height:22rem;
+  background:#f1f1f1;
+  margin-bottom:2rem;
+  margin-left:5rem;
+  margin-right:5rem;
+
+
+  
+
 }
 .single-partner{
   position: relative;
@@ -1069,7 +1078,7 @@ button:focus {
   transition: 0.5s;
   border-radius: 0px;
   background: #f1f1f1;
-  padding: 15px;
+  padding: 10px;
 }
 
 .single-partner .partner-details .partner-title {
@@ -1081,6 +1090,8 @@ button:focus {
 
 .single-partner .partner-details p {
   color: #333;
+  height:2rem;
+  width:2rem;
 }
 
 .single-team img {
@@ -1088,6 +1099,7 @@ button:focus {
 }
 
 .single-team .team-inner {
+  /
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -1099,24 +1111,30 @@ button:focus {
   transition: 0.5s;
   border-radius: 0px;
   background: #f1f1f1;
-  padding: 15px;
+  padding-top:1rem;
   
 }
 
 .single-team .team-details .team-title {
+ 
+  height: 2rem;
   margin-bottom: 5px;
-  font-size: 20px;
+  font-size: 1rem;
   font-weight: 700;
   color: #333;
 }
 
 .single-team .team-details p {
   color: #333;
+  font-size: 0.9rem;
+  height:2.5rem;
+  
 }
 
 .single-team .social-list li {
   display: inline-block;
 }
+
 
 .single-team .social-list li a {
   display: block;
@@ -1327,8 +1345,10 @@ footer {
 }
 .flip-card {
   background-color: transparent;
-  width: 300px;
-  height: 300px;
+  width: 11.5rem;
+  height: 180px;
+  /* margin-right:2rem; */
+
 }
 
 .flip-card-inner {
@@ -1369,7 +1389,6 @@ footer {
 }
 .flip-card-back a{
   color: white;
-  padding-left: -10px;
 }
 .flip-card-back a:hover{
   color: blue;
