@@ -35,6 +35,8 @@
    1. IMPORT GOOGLE FONTS
    ========================================================================== */
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,700");
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
 /* ==========================================================================
    2. GENERAL
    ========================================================================== */
@@ -101,7 +103,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
    2.1 Section Title
    ========================================================================== */
 .section {
-  padding: 80px 0;
+  padding: 50px 0;
 }
 
 .section-header {
@@ -989,10 +991,11 @@ button:focus {
 }
 
 .testimonial-item img {
-  width: 80px;
+  /* check internal css for width and height */
   border: 3px solid #fff;
-  height: 80px;
   border-radius: 50%;
+  align-items: center;
+  margin: auto;
 }
 
 .testimonial-item .testimonial-text h3 {
@@ -1013,18 +1016,20 @@ button:focus {
   line-height: 30px;
 }
 
-.owl-theme .owl-controls .owl-page span {
+#testimonial .owl-theme .owl-controls .owl-page span {
   background: #61D2B4;
 }
 
-.owl-theme .owl-controls {
+#testimonial .owl-theme .owl-controls {
   margin-top: 20px;
 }
 
 /* ==========================================================================
   12. Team Section
    ========================================================================== */
-.single-team:hover .team-details {
+
+  
+   .single-team:hover .team-details {
   opacity: 1;
 }
 
@@ -1036,9 +1041,16 @@ button:focus {
   border-radius: 0px;
   background: #ffffff;
   overflow: hidden;
-  width:283px;
-  height: 435px;
-  padding-bottom: 20px;
+  width:11.5rem;
+  height:22rem;
+  background:#f1f1f1;
+  margin-bottom:2rem;
+  margin-left:5rem;
+  margin-right:5rem;
+
+
+  
+
 }
 .single-partner{
   position: relative;
@@ -1069,7 +1081,7 @@ button:focus {
   transition: 0.5s;
   border-radius: 0px;
   background: #f1f1f1;
-  padding: 15px;
+  padding: 10px;
 }
 
 .single-partner .partner-details .partner-title {
@@ -1081,6 +1093,8 @@ button:focus {
 
 .single-partner .partner-details p {
   color: #333;
+  height:2rem;
+  width:2rem;
 }
 
 .single-team img {
@@ -1088,6 +1102,7 @@ button:focus {
 }
 
 .single-team .team-inner {
+  /
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -1099,24 +1114,30 @@ button:focus {
   transition: 0.5s;
   border-radius: 0px;
   background: #f1f1f1;
-  padding: 15px;
+  padding-top:1rem;
   
 }
 
 .single-team .team-details .team-title {
+ 
+  height: 2rem;
   margin-bottom: 5px;
-  font-size: 20px;
+  font-size: 1rem;
   font-weight: 700;
   color: #333;
 }
 
 .single-team .team-details p {
   color: #333;
+  font-size: 0.9rem;
+  height:2.5rem;
+  
 }
 
 .single-team .social-list li {
   display: inline-block;
 }
+
 
 .single-team .social-list li a {
   display: block;
@@ -1327,8 +1348,10 @@ footer {
 }
 .flip-card {
   background-color: transparent;
-  width: 300px;
-  height: 300px;
+  width: 11.5rem;
+  height: 180px;
+  /* margin-right:2rem; */
+
 }
 
 .flip-card-inner {
@@ -1369,7 +1392,6 @@ footer {
 }
 .flip-card-back a{
   color: white;
-  padding-left: -10px;
 }
 .flip-card-back a:hover{
   color: blue;
@@ -1387,7 +1409,10 @@ footer {
 }
 
 .active, .accordion:hover {
-  background-color: #ccc;
+  /* background-color: #ccc; */
+
+  /* channged this to make intern color wrapper nice; */
+  background-color:  #61D2B4;
 }
 
 .panel {
@@ -1420,4 +1445,112 @@ td {
 
 tr:nth-child(even) {
   background-color: #dddddd;
+}
+
+
+/* CSS FOR INTERN PART */
+
+.interns{
+  /* background-color: rgb(31, 7, 87); */
+  background-color: #61D2B4;
+  height:36rem;
+  /* margin-top: 3rem; */
+  width:100%;
+  position: relative;
+
+}
+
+.interns .section-title {
+  font-size: 2.8rem;
+  margin-top: 0;
+  padding-top:2rem;
+  text-transform: uppercase;
+  font-family:monospace;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+
+
+.interns .lines {
+  width: 70px;
+  border-top: 2px solid #ffffff;
+  margin-top:1rem;
+}
+
+
+.interns .wrapper{
+/* width: 1200px;; */
+/* width:40rem; */
+/* height:26rem; */
+/* background-color: rgb(136, 230, 230); */
+background-color: #61D2B4;
+ /* change this */
+/* margin-top:1rem; */
+margin-left:4rem;
+margin-right:3rem;
+}
+
+}
+.carousel{
+margin: auto;
+width:100%;
+}
+.carousel .card{
+color: #fff;
+text-align: center;
+margin:3rem 1rem;
+/* margin-right:1rem; */
+height:19rem;
+box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+}
+
+
+.interns .card img{
+  width: fit-content;
+  height:210px;
+  box-shadow:5px 5px	#fdc0c0;
+}
+.interns .card .intern-name{
+  margin-top:10px;
+  color: black;
+  font-style:italic;
+  padding-bottom: 0.5rem;
+  height:1.6rem;
+  font-size:1.4rem;
+   font-family:'Times New Roman', Times, serif;
+  text-align: center;
+  
+}
+.interns .card p{
+  margin-top: 10px;
+ font-size:1.1rem;
+  text-align: center;
+  color: #178891;
+  font-weight:bold;
+  
+}
+
+.owl-dots{
+text-align: center;
+/* margin-top:1rem; */
+}
+.owl-dot{
+height: 10px;
+width: 2rem;
+margin: 0 5px;
+outline: none;
+border-radius: 14px;
+border: 2px solid #ffffff!important;
+box-shadow: 0px 4px 15px #ebeaea;
+transition: all 0.3s ease;
+}
+
+.owl-dot.active{
+  background-color: #61D2B4;
+}
+.owl-dot.active,
+.owl-dot:hover{
+
+background: #fdc0c0!important;
 }
