@@ -1572,3 +1572,25 @@ transition: all 0.3s ease;
 background: #fdc0c0!important;
 }
 
+/* INTRO VIDEO CSS START */
+.video-container {
+  overflow: hidden;
+  position: relative;
+  width:90%;
+  margin-left: 5%;
+}
+
+.video-container::after {
+  padding-top: 56.25%;
+  display: block;
+  content: '';
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* INTRO VIDEO CSS END */
