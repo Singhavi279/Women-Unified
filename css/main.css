@@ -738,7 +738,7 @@ button:focus {
 
 #features .show-box img {
   position: absolute;
-  bottom: -50px;
+  bottom: 15rem;
   padding-left: 5rem;
 }
 
